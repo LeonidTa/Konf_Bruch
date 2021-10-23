@@ -36,13 +36,11 @@ public class Bruch {
         *  Retournieren Sie ihre neue Bruch-Variable
         * */
 
-
-        return null;
+        return new Bruch(numerator * b2.getNumerator(), denominator * b2.getDenominator());
     }
 
     public Bruch multiplicate(Bruch b2,  Bruch b3) {
         // TODO: Multiplizieren Sie den eigenen Bruch mit b2 und b3
-
-        return null;
+        return new Bruch(numerator * b2.getNumerator() * b3.getNumerator(), denominator * b2.getDenominator() * b3.getDenominator());
     }
 }
